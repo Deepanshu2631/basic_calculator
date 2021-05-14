@@ -45,12 +45,12 @@ void loop() {
 key = kpd.getKey();
 
 if (key!=NO_KEY)
-DetectButtons();
+DetectButtons();//detect key funbtion calling 
 
 if (result==true)
-CalculateResult();
-
-DisplayResult();   
+CalculateResult();//calculate result function calling 
+ 
+DisplayResult();  //display result function calling  
 }
 
 void DetectButtons()
